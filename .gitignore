@@ -61488,25 +61488,3 @@ README.md	10 KB	✅ YES
 requirements.txt	200 B	✅ YES
 package.json	500 B	✅ YES
 🎬 ALL-IN-ONE (Complete Setup)
-powershell
-cd C:\Users\HP\ai-enterprise-negotiator
-
-# .gitignore banao agar nahi hai
-New-Item -ItemType File -Force -Path ".gitignore"
-
-# Ab VS Code me .gitignore kholo aur upar wala content paste karo
-code .gitignore
-
-# Save karo, phir:
-git add .
-git status
-✅ VERIFICATION Checklist
-Push se pehle confirm kar:
-
-□ .gitignore root folder me hai
-□ .gitignore me node_modules/ likha hai
-□ .gitignore me venv/ likha hai
-□ .gitignore me .env likha hai
-□ git status me node_modules NAHI dikh raha
-□ git status me venv NAHI dikh raha
-□ Total files < 50 hain (approximately)
